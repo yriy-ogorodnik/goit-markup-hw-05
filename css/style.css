@@ -315,16 +315,17 @@ address {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  height: 70px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   background-color: rgba(47, 48, 58, 0.8);
-  font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 
+  text-transform: uppercase;
   color: #ffffff;
 }
 /* ----team--------------------------------------- */
